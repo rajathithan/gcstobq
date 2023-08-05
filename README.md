@@ -11,4 +11,8 @@ To create custom dataflow job template in GCS bucket.
 Json schema Reference using during bq load.
 
 * tableschema.py - 
-Variable holding the json schema data. 
+Variable holding the json schema data.
+
+* Dockerfile -
+Dockerfile to create the dataflow worker container image
+  
