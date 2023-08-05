@@ -1,7 +1,7 @@
 # gcstobq
 Dataflow Job for uploading xml data from GCS to BQ.
 
-## Pipeline-run.py
+* Pipeline-run.py
 To run the dataflow job from your local.
 
 ## Pipeline-template.py
