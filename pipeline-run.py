@@ -1,7 +1,7 @@
 # Dataflow Job to upload xml data from GCS to BQ
 # Author: Rajathithan Rajasekar 
 # Version : 1.0
-# Date: 07/30/2023
+# Date: 08/05/2023
 
 import sys
 import json
