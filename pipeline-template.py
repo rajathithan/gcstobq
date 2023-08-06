@@ -3,6 +3,12 @@
 # Version : 1.0
 # Date: 08/05/2023
 
+# Dataflow Job to create custom dataflow template for upload of xml data from GCS to BQ
+# Author: Rajathithan Rajasekar 
+# Version : 1.0
+# Date: 08/05/2023
+
+
 import sys
 import json
 import logging
@@ -57,7 +63,7 @@ def run():
     parser.add_argument('--region', 
                         dest='region', 
                         required=False, 
-                        default='us-east4',
+                        default='us-central1',
                         help='Region')
 
     parser.add_argument('--staging_location', 
@@ -87,7 +93,7 @@ def run():
     parser.add_argument('--subnetwork', 
                         dest='subnetwork', 
                         required=False, 
-                        default='https://www.googleapis.com/compute/v1/projects/mercurial-smile-386805/regions/us-east4/subnetworks/dataflow-network',
+                        default='https://www.googleapis.com/compute/v1/projects/mercurial-smile-386805/regions/us-central1/subnetworks/dataflow-network',
                         help='Subnetwork Name')
 
     parser.add_argument('--experiments', 
@@ -106,7 +112,7 @@ def run():
                 help='Dataflow worker container image')
    
     parser.add_argument('--template_location', 
-                default="gs://xmltestpoc/template",
+                default="gs://xmltestpoc/template/gcstobq.json",
                 required=False,
                 help='Dataflow worker container image')    
  
