@@ -3,10 +3,6 @@
 # Version : 1.0
 # Date: 08/05/2023
 
-# Dataflow Job to create custom dataflow template for upload of xml data from GCS to BQ
-# Author: Rajathithan Rajasekar 
-# Version : 1.0
-# Date: 08/05/2023
 
 
 import sys
