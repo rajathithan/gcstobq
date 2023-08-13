@@ -1,0 +1,25 @@
+{
+    "name": "XML data upload to BQ Table",
+    "description": "Batch example for python flex template.",
+    "parameters": [
+      {
+        "name": "input",
+        "label": "The Input xml file",
+        "helpText": "Path of xml folder and file in the GCS Bucket",
+        "isOptional": true,
+        "regexes": [
+            "^.+\\.xml$"
+
+            ]
+      },
+      {
+        "name": "output",
+        "label": "BigQuery output table name.",
+        "helpText": "Name of the BigQuery output dataset.table name.",
+        "isOptional": true,
+        "regexes": [
+          "([^:]+:)?[^.]+[.].+"
+        ]
+      }
+    ]
+  }

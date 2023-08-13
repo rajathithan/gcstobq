@@ -1,0 +1,3 @@
+xmltodict
+apache-beam[gcp]
+google-cloud-storage
