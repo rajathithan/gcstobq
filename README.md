@@ -25,11 +25,11 @@ Metadata.json to validate the input / outpur parameters
 * fles / pipeline-run-flex.py -
 Pipeline file to run after the flex template launch
 
-* flex / requirements.txt
+* flex / requirements.txt -
 Flex template Python package dependencies
 
-* cloudfunction / main.py
+* cloudfunction / main.py -
 2nd Gen Cloud Function code to send a REST API call to the dataflow flex template launch API
 
-* cloudfunction / requirements.txt
+* cloudfunction / requirements.txt -
 cloudfunction Python package dependencies
